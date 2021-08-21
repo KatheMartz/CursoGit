@@ -1,0 +1,11 @@
+h1 {
+    color: #c6d5ff;
+}
+
+.container {
+    margin-top: 100px;
+    background-color: #3d71ff;
+    padding: 40px;
+    border-radius: 6px;
+    box-shadow: 3px 6px 6px #3d71ff65;
+}
