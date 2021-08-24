@@ -19,8 +19,7 @@
         <h3>Hello people</h3>
         <p>Genial!!! Estamos con todos los poderes. Me llega 😎</p>
     </div>
-<<<<<<< HEAD:Index.php
-=======
+
 
     <!-- Agregando tarjeta -->
     <div class="card" style="width: 18rem;">
@@ -33,7 +32,7 @@
             <a href="#" class="card-link">Another enlace</a>
         </div>
     </div>
->>>>>>> cfa0dca99a49deca2eba5f46ac3697a214980d80:Index.html
+
 </body>
 
 <?php
