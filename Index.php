@@ -14,27 +14,21 @@
 </head>
 
 <body>
-    <div class="container">
-        <h1>HOLA WORLD !!!</h1>
-        <h3>Hello people</h3>
-        <p>Genial!!! Estamos con todos los poderes. Me llega 😎</p>
-    </div>
+    
+<!-- LOGIN -->
 
-
-    <!-- Agregando tarjeta -->
-    <div class="card" style="width: 18rem;">
-        <div class="card-body">
-            <h5 class="card-title">Card "First"</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Card</h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                contento.</p>
-            <a href="#" class="card-link">Card </a>
-            <a href="#" class="card-link">Another enlace</a>
-        </div>
+    <div class="login">
+    <h1>WELCOME  TO THE SCORE REGISTER</h1>
+    <p>Uwu</p>
+        <div class="controles">
+            <input id="username" type="text" name="username" placeholder="Username" required>
+            <input id="password" type="text" name="password" placeholder="Password" required>
+            <p><a href="#">Forgot your password</a></p>
+            <input type="submit" value="Login" id="login">
+        </div>  
     </div>
+<!-- SIGN UP -->
 
 </body>
 
-<!-- LOGIN -->
-<!-- SIGN UP -->
 </html>

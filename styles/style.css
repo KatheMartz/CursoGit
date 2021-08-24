@@ -1,5 +1,7 @@
 h1 {
-    color: #c6d5ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: slategrey;
+    
 }
 
 .container {
@@ -8,4 +10,30 @@ h1 {
     padding: 40px;
     border-radius: 6px;
     box-shadow: 3px 6px 6px #3d71ff65;
+}
+
+.login{
+    
+    color: black;
+    padding: 100px;
+    border-radius: 40px;
+    text-align: center;
+}
+.controles input{
+    color:black;
+    bottom:auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.controles{
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto; 
+    width: 392px;
+}
+#login{
+    width: 146px;
+    margin: auto;
+    background-color: #707070;
+    color: white;
 }
