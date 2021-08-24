@@ -35,8 +35,6 @@
 
 </body>
 
-<?php
-    phpinfo();
-?>
-
+<!-- LOGIN -->
+<!-- SIGN UP -->
 </html>
