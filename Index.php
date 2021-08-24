@@ -19,6 +19,21 @@
         <h3>Hello people</h3>
         <p>Genial!!! Estamos con todos los poderes. Me llega 😎</p>
     </div>
+<<<<<<< HEAD:Index.php
+=======
+
+    <!-- Agregando tarjeta -->
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">Card "First"</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Card</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                contento.</p>
+            <a href="#" class="card-link">Card </a>
+            <a href="#" class="card-link">Another enlace</a>
+        </div>
+    </div>
+>>>>>>> cfa0dca99a49deca2eba5f46ac3697a214980d80:Index.html
 </body>
 
 <?php
