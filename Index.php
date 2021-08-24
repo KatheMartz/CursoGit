@@ -14,6 +14,19 @@
 
 <body>
 
+    <!-- LOGIN -->
+
+    <div class="login">
+        <h1>WELCOME TO THE SCORE REGISTER</h1>
+        <p>Uwu</p>
+        <div class="controles">
+            <input id="username" type="text" name="username" placeholder="Username" required>
+            <input id="password" type="text" name="password" placeholder="Password" required>
+            <p><a href="#">Forgot your password</a></p>
+            <input type="submit" value="Login" id="login">
+        </div>
+    </div>
+
     <!-- SIGN UP -->
     <div class="signup">
         <h1>Profile Register</h1>
@@ -21,42 +34,17 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu diam vitae urna imperdiet maximus sed eu nibh. Donec ac dapibus metus. Sed eget massa et purus maximus sodales id eu purus.
         </p>
         <div class="controls">
-            <input
-                type="text"
-                name="username"
-                id="username"
-                placeholder="Username"
-                require
-            >
+            <input type="text" name="username" id="username" placeholder="Username" require>
 
-            <input
-                type="password"
-                name="password"
-                id="password"
-                placeholder="Password"
-                require
-            >
+            <input type="password" name="password" id="password" placeholder="Password" require>
 
-            <input
-                type="text"
-                name="classname"
-                id="classname"
-                placeholder="Class Name"
-                require
-            >
+            <input type="text" name="classname" id="classname" placeholder="Class Name" require>
 
-            <input
-                type="number"
-                name="level"
-                id="level"
-                placeholder="Level"
-                require
-            >
+            <input type="number" name="level" id="level" placeholder="Level" require>
 
             <input type="button" value="sign up" id="button-sign">
 
         </div>
-    </div>
 
 </body>
 

@@ -5,6 +5,10 @@
   font-family: 'PT Sans Narrow', sans-serif;
 }
 
+body {
+  display: flex;
+}
+
 /* Configuraciones de SignUp */
 .signup {
   background-color: #707070;
@@ -13,19 +17,21 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 50%;
 }
 
 .signup h1 {
   color: #ffffff;
   font-weight: 700;
+  width: 392px;
 }
 
 .signup p {
   color: #CCCCCC;
+  width: 392px;
 }
 
 h1, p {
-  width: 392px;
   text-align: center;
   margin-bottom: 40px !important;
 }
@@ -37,6 +43,10 @@ h1, p {
   gap: 20px;
 
   width: 392px;
+}
+
+h1 {
+    color: #707070;
 }
 
 .signup .controls input:not(#button-sign) {
@@ -72,4 +82,33 @@ h1, p {
 #button-sign {
   grid-area: 4/1/4/-1;
   justify-self: center;
+}
+
+.login{
+    color: black;
+    padding: 100px;
+    border-radius: 40px;
+    text-align: center;
+    width: 50%;
+}
+
+.controles input{
+    color:black;
+    bottom:auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.controles{
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    width: 392px;
+}
+
+#login{
+    width: 146px;
+    margin: auto;
+    background-color: #707070;
+    color: white;
 }
