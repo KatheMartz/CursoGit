@@ -115,3 +115,13 @@ h1 {
     text-transform: uppercase;
     padding: 6px 10px;
 }
+
+@media screen and (max-width: 870px) {
+  body {
+    flex-direction: column;
+  }
+
+  .login, .signup {
+    width: 100%;
+  }
+}
