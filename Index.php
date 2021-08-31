@@ -4,7 +4,7 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <title>Score Register</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='styles/style.css'>
     <!-- CSS only -->
@@ -17,12 +17,12 @@
     <!-- LOGIN -->
 
     <div class="login">
-        <h1>WELCOME TO THE SCORE REGISTER</h1>
+        <h1><strong>WELCOME TO THE SCORE REGISTER</strong> </h1>
         <p>Uwu</p>
         <div class="controles">
             <input id="username" type="text" name="username" placeholder="Username" required>
-            <input id="password" type="text" name="password" placeholder="Password" required>
-            <p><a href="#">Forgot your password</a></p>
+            <input id="password" type="password" name="password" placeholder="Password" required>
+            <p><a href="#" target="blanco">Forgot your password</a></p>
             <input type="submit" value="Login" id="login">
         </div>
     </div>
