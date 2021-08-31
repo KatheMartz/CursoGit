@@ -47,6 +47,7 @@
             <input type="button" value="sign up" id="button-sign">
 
         </div>
+    </div>
 
 </body>
 
