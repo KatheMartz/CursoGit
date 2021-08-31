@@ -18,7 +18,9 @@
 
     <div class="login">
         <h1><strong>WELCOME TO THE SCORE REGISTER</strong> </h1>
-        <p>Uwu</p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pretium nulla vitae felis rutrum consequat. Duis a nunc quis mi maximus tristique nec eget turpis. Ut faucibus diam ut erat tristique, sit amet lobortis nulla sagittis.
+        </p>
         <div class="controles">
             <input id="username" type="text" name="username" placeholder="Username" required>
             <input id="password" type="password" name="password" placeholder="Password" required>
