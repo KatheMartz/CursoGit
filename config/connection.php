@@ -1,7 +1,7 @@
 <?php
 $host="localhost";
 $user="root";
-$pass="";
+$pass="pabykat";
 $db="score_db";
 $conn=new mysqli($host,$user,$pass,$db);
 
