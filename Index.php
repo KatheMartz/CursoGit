@@ -24,7 +24,7 @@
         <form class="controles" action="controllers/login.php" method="GET">
             <input id="username" type="text" name="username" placeholder="Username" required>
             <input id="password" type="password" name="password" placeholder="Password" required>
-            <p><a href="#" target="blanco">Forgot your password</a></p>
+            <p><a href="public/restaurar.php?nombre=username" target="blanco">Forgot your password</a></p>
             <input type="submit" value="Login" id="login">
     </form>
     </div>
