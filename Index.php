@@ -35,7 +35,7 @@
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu diam vitae urna imperdiet maximus sed eu nibh. Donec ac dapibus metus. Sed eget massa et purus maximus sodales id eu purus.
         </p>
-        <div class="controls">
+        <form class="controls" action="controllers/registrar.php" method="POST">
             <input type="text" name="username" id="username" placeholder="Username" require>
 
             <input type="password" name="password" id="password" placeholder="Password" require>
@@ -44,9 +44,9 @@
 
             <input type="number" name="level" id="level" placeholder="Level" require>
 
-            <input type="button" value="sign up" id="button-sign">
+            <input type="submit" value="sign up" id="button-sign">
 
-        </div>
+        </form>
     </div>
 
 </body>
